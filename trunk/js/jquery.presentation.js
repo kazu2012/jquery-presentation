@@ -197,7 +197,6 @@ $.presentation.SlideManager.Item.prototype = {
  */
 $.keyDownObserver = new function(){
 	this._started = false;
-	this._lastKey = null;
 	this._items = [];
 	this._find = function(key){
 		var res = $.noop;
